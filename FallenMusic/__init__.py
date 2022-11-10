@@ -8,8 +8,6 @@ from pyrogram import Client
 from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as Bot
 
-from .logging import LOGGER
-
 # Directories
 dirr()
 
