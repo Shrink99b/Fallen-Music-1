@@ -4,7 +4,6 @@ import config
 import asyncio
 
 from os import listdir, mkdir
-from rich.table import Table
 from pyrogram import Client
 from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as Bot
