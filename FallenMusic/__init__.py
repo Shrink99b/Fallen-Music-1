@@ -4,7 +4,6 @@ import config
 import asyncio
 
 from os import listdir, mkdir
-from rich.table import Table
 from pyrogram import Client
 from rich.console import Console as hehe
 from aiohttp import ClientSession
