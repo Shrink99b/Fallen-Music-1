@@ -59,7 +59,6 @@ async def fallen_boot():
     global BOT_ID, BOT_NAME, BOT_USERNAME
     global ASSID, ASSNAME, ASSMENTION, ASSUSERNAME
     os.system("clear")
-        console.print("┌ [red]Booting Fallen Music Clients...\n")
         await app.start()
         await Ass.start()
         console.print("└ [green]Clients Booted Successfully!")
