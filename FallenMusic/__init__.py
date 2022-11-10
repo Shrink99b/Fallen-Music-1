@@ -14,7 +14,6 @@ from FallenMusic.Helpers.Logging import startup_msg, startup_edit, startup_del
 
 
 loop = asyncio.get_event_loop()
-console = hehe()
 
 
 ## Startup Time
