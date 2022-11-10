@@ -59,8 +59,6 @@ async def fallen_boot():
     global BOT_ID, BOT_NAME, BOT_USERNAME
     global ASSID, ASSNAME, ASSMENTION, ASSUSERNAME
     os.system("clear")
-    )
-    console.print(header)
     with console.status(
         "[magenta] Booting Fallen Music Bot...",
     ) as status:
