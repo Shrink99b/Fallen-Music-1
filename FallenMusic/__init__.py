@@ -4,9 +4,7 @@ import config
 import asyncio
 
 from os import listdir, mkdir
-from rich.table import Table
 from pyrogram import Client
-from rich.console import Console as hehe
 from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as Bot
 
@@ -16,7 +14,6 @@ from FallenMusic.Helpers.Logging import startup_msg, startup_edit, startup_del
 
 
 loop = asyncio.get_event_loop()
-console = hehe()
 
 
 ## Startup Time
